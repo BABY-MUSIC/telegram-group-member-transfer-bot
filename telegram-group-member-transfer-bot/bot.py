@@ -5,11 +5,11 @@ from telegram import Bot, Update
 from telegram.ext import CommandHandler, Updater
 
 # Replace with your bot token
-TOKEN = 'YOUR_BOT_API_TOKEN'
+TOKEN = '7825267743:AAF4LLHMD7Q8lhy9wRfpE0oFB2f9i7qPbZY'
 
 # Replace with your source and target group chat IDs
-SOURCE_GROUP_ID = 'source_group_id'
-TARGET_GROUP_ID = 'target_group_id'
+SOURCE_GROUP_ID = '-1002167342551'
+TARGET_GROUP_ID = '-1002043570167'
 
 def transfer_members(update: Update, context):
     bot = context.bot
